@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.22
+FROM ghcr.io/linuxserver-playground/baseimage-alpine-nginx:3.22
 
 # set version label
 ARG BUILD_DATE
