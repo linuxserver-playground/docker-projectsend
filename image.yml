@@ -10,6 +10,8 @@ upstream:
   version:
     type: github_release
     repo: projectsend/legacy
+    require_assets:
+      - asset: '^projectsend(-.*)?\.zip$'
   notes:
     type: github_release
     repo: projectsend/legacy
