@@ -15,6 +15,11 @@ upstream:
   notes:
     type: github_release
     repo: projectsend/legacy
+  sponsor:
+  - name: ProjectSend (Patreon)
+    url: https://www.patreon.com/ignacionelson
+  - name: ProjectSend (Open Collective)
+    url: https://opencollective.com/projectsend
 
 release:
   branch: master
